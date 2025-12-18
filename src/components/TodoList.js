@@ -5,8 +5,12 @@ const TodoList = () => {
   const { todos } = useTodo();
 
   if (todos.length === 0) {
-    return <p className="text-center">No todos yet</p>;
-  }
+  return (
+    <p className="text-center text-gray-500 italic">
+      No todos yet. Add one above 👆
+    </p>
+  );
+}
 
   return (
     <ul className="space-y-2">
