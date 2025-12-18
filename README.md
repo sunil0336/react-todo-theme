@@ -106,23 +106,3 @@ React.js Developer Intern Candidate
 This project is for **educational and evaluation purposes**.
 
 ---
-
-### ✅ Tip
-
-After adding this README:
-
-```bash
-git add README.md
-git commit -m "Add detailed README for Todo app"
-git push
-```
-
----
-
-If you want, I can:
-
-* Write **README for Product Filter app**
-* Add **screenshots section**
-* Review your README like a recruiter would
-
-Just tell me 👍
