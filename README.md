@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+Here’s a **clean, professional, reviewer-ready `README.md`** for your **Todo App with Theme Switcher**.
+You can **copy-paste this directly** into your repo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# 📝 React Todo App with Theme Switcher
 
-In the project directory, you can run:
+A modern **Todo application** built using **React** that demonstrates state management with **Context API** and **useReducer**, persistent storage using a **custom localStorage hook**, and a **Dark / Light theme switcher** with clean, interactive UI.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👉 **[Deployed on Vercel]**
+[https://react-todo-theme.vercel.app](https://react-todo-theme.vercel.app)
+*(replace with your actual link if different)*
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+* ➕ Add new todos
+* ✏️ Edit existing todos
+* ❌ Delete todos
+* ✅ Mark todos as completed (with visual indicator)
+* 🌗 Dark / Light theme toggle
+* 💾 Persistent data using `localStorage`
+* 🎨 Clean and responsive UI with TailwindCSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧠 Concepts & Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **React**
+* **Context API** (global state management)
+* **useReducer** (predictable state updates)
+* **Custom Hook (`useLocalStorage`)**
+* **TailwindCSS**
+* **Component-based architecture**
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📂 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+src/
+├── components/
+│   ├── TodoForm.js
+│   ├── TodoItem.js
+│   ├── TodoList.js
+│   └── ThemeToggle.js
+│
+├── context/
+│   ├── TodoContext.js
+│   └── ThemeContext.js
+│
+├── hooks/
+│   └── useLocalStorage.js
+│
+├── reducer/
+│   └── todoReducer.js
+│
+├── pages/
+│   └── TodoPage.js
+│
+├── App.js
+├── index.js
+└── index.css
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ▶️ How to Run Locally
 
-## Learn More
+```bash
+npm install
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will run at:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+http://localhost:3000
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌 Additional Improvements (Beyond Requirements)
 
-### Analyzing the Bundle Size
+* Visual completed-task indicator (✓)
+* Improved input visibility in dark mode
+* Interactive hover and transition effects
+* Clean, modular folder structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Sunil Rathod**
+React.js Developer Intern Candidate
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📄 License
 
-### Deployment
+This project is for **educational and evaluation purposes**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+### ✅ Tip
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After adding this README:
+
+```bash
+git add README.md
+git commit -m "Add detailed README for Todo app"
+git push
+```
+
+---
+
+If you want, I can:
+
+* Write **README for Product Filter app**
+* Add **screenshots section**
+* Review your README like a recruiter would
+
+Just tell me 👍
